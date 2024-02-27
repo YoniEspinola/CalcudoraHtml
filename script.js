@@ -24,8 +24,8 @@ CALCULAR.addEventListener('click', () => {
             DIA.style.display = "block";
         } else {
             sc = superficie(DATO);
-            r1= Math.round(sc * 1500/24);
-            r2= Math.round(sc * 2000/24);
+            r1= Math.round(sc * 1500);
+            r2= Math.round(sc * 2000);
             FLU.innerHTML = "SC * 1500: " + r1  + " cc";
             MAN.innerHTML = "SC * 2000: " + r2 + " cc";
             FLU.style.display = "block";
