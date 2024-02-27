@@ -4,6 +4,7 @@ body{
     background: #f6f5f7; 
     font-family: 'Montserrat', sans-serif;
     color: #3E363F; 
+    background-image: url("Fondo.jpg")
 }
 #contenedor{
     width: 900px;
@@ -28,7 +29,7 @@ body{
 }
 
 #detalle{
-    background: #FF416C;
+    background: #12be77;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -55,8 +56,8 @@ button {
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: #FF416C;
-	border: 1px solid #FF416C;
+	background-color: #12705cad;
+	border: 1px solid 12705cad;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
